@@ -16,15 +16,17 @@ namespace Myproject1.For_Loop
             {
                 if ( i % 2 != 0)
                 {
+
+
                    
-                     
-                    
 
                     sum = sum + i;
-                    Console.WriteLine(sum);
+                    
                     
                 }
             }
+
+            Console.WriteLine(sum);
         }
     }
 }
