@@ -6,7 +6,7 @@ namespace Myproject1.Basic_Test_1
 {
     class Equialateral_Triangle
     {
-        static void Main(String[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Enter side of an equilateral triangle");
             int num1 = int.Parse(Console.ReadLine());
