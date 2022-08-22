@@ -16,10 +16,10 @@ namespace Myproject1.Logical_Programs
                 no = a % 10;
 
                 
-                sum += no;
+                //sum += no;
 
                 
-                product *= no;
+                //product *= no;
                 a = a / 10;
             }
 
