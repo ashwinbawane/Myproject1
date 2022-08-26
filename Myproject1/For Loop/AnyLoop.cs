@@ -8,8 +8,22 @@ namespace Myproject1.For_Loop
     {
         static void Main(String[] args)
         {
-            Console.WriteLine("Enter any no");
-            int num = int.Parse(Console.ReadLine());
+            
+            for ( int i = 1; i <= 5; i++)
+            {
+                for(int j = 1; j <= i; j++)
+                {
+                    Console.Write(j);
+                }
+
+                for(int k = i; k <= 4; k++)
+                {
+                    Console.Write(" ");
+                }
+
+                Console.WriteLine();
+
+            }
 
             
         }
