@@ -11,27 +11,25 @@ namespace Myproject1.Method_Overloading
         int area;
         int perimeter;
 
-        public void input(int l, int b, int a, int p)
+        public void input(int l, int b)
         {
             length = l;
             breadth = b;
-            area = a;
-            perimeter = p;
+            
 
         }
 
-        public void calculate(int l, int b)
+        public void calculate()
         {
-            length = l;
-            breadth = b;
-             int a = length * breadth;
-             int p = 2 * length + 2 * breadth;
+            
+             area = length * breadth;
+             perimeter= 2 * length + 2 * breadth;
         }
 
         public void display()
         {
-            Console.WriteLine("Area is " + length * breadth);
-            Console.WriteLine("Perimeter is " + (2*length + 2*breadth));
+            Console.WriteLine("Area is " +area);
+            Console.WriteLine("Perimeter is " + perimeter);
         }
 
 
@@ -45,8 +43,9 @@ namespace Myproject1.Method_Overloading
 
           
             Rectangle r = new Rectangle();
+            r.input(w, s);
 
-            r.calculate(w,s);
+            r.calculate();
             r.display();
 
 

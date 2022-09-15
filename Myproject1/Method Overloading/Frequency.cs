@@ -12,19 +12,20 @@ namespace Myproject1.Method_Overloading
              
             while(num > 0)
             {
-                if(num % 10 == 0)
+                if(num % 10 == d)
                 {
                     c++;
-                    num = num / 10;
+                    
 
-                    Console.WriteLine(c);
+                    
                     
                 }
-                
-                
+                num = num / 10;
+
+
 
             }
-
+            Console.WriteLine(c);
         }
 
         public void Number(int n1)
@@ -48,13 +49,13 @@ namespace Myproject1.Method_Overloading
             Console.WriteLine("Enter any no");
             int b = int.Parse(Console.ReadLine());
 
-            //Console.WriteLine("Enter any no");
-            //int d = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter any no");
+            int d = int.Parse(Console.ReadLine());
 
             Frequency f = new Frequency();
 
             f.Number(a, b);
-            //f.Number(d);
+            f.Number(d);
 
             
             

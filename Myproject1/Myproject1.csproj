@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>Myproject1.Method_Overloading.NonNegative</StartupObject>
+	  <StartupObject>Myproject1.Aray.Duplicate</StartupObject>
   </PropertyGroup>
 
 </Project>

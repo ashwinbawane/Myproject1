@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Myproject1.Method_Overloading
 {
-    class PR
+    class PPrime
     {
        
         public bool isPrime(int a)
         {
             bool isPrime = true;
     
-            for(int i = 1; i <= a;i++)
+            for(int i = 2; i <= a;i++)
             {
                if(a % i == 0)
                 {
@@ -27,14 +27,22 @@ namespace Myproject1.Method_Overloading
         {
             Console.WriteLine("Enter any no");
             int n = int.Parse(Console.ReadLine());
-            PR p = new PR();
+            PPrime p = new PPrime();
 
             bool b = p.isPrime(n);
 
+
             if (b == true)
             {
-                Console.WriteLine("No is prime");
 
+                for(int i =1; i<=500; i++)
+                {
+                    Console.WriteLine(i);
+                }
+
+            
+                
+                
             }
         }
     }

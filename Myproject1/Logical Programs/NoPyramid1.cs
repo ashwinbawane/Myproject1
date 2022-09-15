@@ -15,7 +15,7 @@ namespace Myproject1.Logical_Programs
             {
                for(int space = i; space <= lines-i; space++)
                {
-                    Console.Write("- ");
+                    Console.Write("-");
                }
 
                for(int c = i; c <= 5; c++)
